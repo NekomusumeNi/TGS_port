@@ -499,7 +499,7 @@ footer p{
 }
 
 #error1::after{
-	content: url(OurServicesimages/error.png);
+	content: url(OurServicesimages/Error.png);
 	position: relative;
 	top: 10px;
 	right: 40px;
@@ -509,7 +509,7 @@ footer p{
 }
 
 #error2::after{
-	content: url(OurServicesimages/error.png);
+	content: url(OurServicesimages/Error.png);
 	position: relative;
 	top: 10px;
 	right: 40px;
@@ -519,7 +519,7 @@ footer p{
 }
 
 #error3::after{
-	content: url(OurServicesimages/error.png);
+	content: url(OurServicesimages/Error.png);
 	position: relative;
 	bottom: 86px;
 	right: 40px;

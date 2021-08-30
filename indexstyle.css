@@ -1,0 +1,2435 @@
+body{
+	margin:0;
+	padding: 0;
+	background-color: #272524;
+}
+
+header{
+	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//headerbg.png);
+	background-size: cover;
+	padding-top: 29px;
+	padding-bottom: 29px;
+	color: white;
+	font-size: 14px;
+	font-family: Proxima Nova Lt;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+button:focus{
+	outline: none;
+}
+
+input{
+	color: white;
+	font-family: Proxima Nova Lt;
+}
+
+textarea{
+	color: white;
+	font-family: Proxima Nova Lt;
+}
+
+input:focus{
+	outline: 1px solid #524FFF;
+}
+
+textarea:focus{
+	outline: 1px solid #524FFF;
+}
+
+button:hover{
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+input::-webkit-input-placeholder {
+    color: white;
+    font-family: Proxima Nova Lt;
+   } 
+input::-moz-placeholder {
+    color: white;
+    font-family: Proxima Nova Lt;
+   }
+
+textarea::-webkit-input-placeholder {
+    color: white;
+    font-family: Proxima Nova Lt;
+   } 
+
+textarea::-moz-placeholder {
+	color: white;
+	font-family: Proxima Nova Lt;
+}
+
+
+
+.submit:hover{
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: inherit;
+    min-width: 380px;
+    z-index: 1;
+    margin-top: 29px;
+    margin-left: 191px;
+    line-height: 26px;
+}
+
+.drop2 {
+    display: none;
+    position: absolute;
+    background-color: inherit;
+    min-width: 355px;
+    min-height: 92px;
+    z-index: 1;
+    margin-left: 354px;
+    margin-top: -66px;
+}
+
+.drop3 {
+    display: none;
+    position: absolute;
+    background-color: inherit;
+    min-width: 355px;
+    min-height: 92px;
+    z-index: 1;
+    margin-left: 354px;
+    margin-top: -90px;
+	background-size: cover;
+}
+
+.drop3-1 {
+    position: absolute;
+    background-color: inherit;
+    min-width: 340px;
+    z-index: 1;
+    margin-left: 25px;
+    background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block1bg.png);
+	background-size: cover;
+}
+
+.drop2-1 {
+    position: absolute;
+    background-color: inherit;
+    min-width: 340px;
+    z-index: 1;
+    margin-left: 25px;
+    background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block1bg.png);
+	background-size: cover;
+}
+
+.drop2op{
+	width: 355px;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.dropdown{
+	display: inline;
+	text-decoration: none;
+	color: inherit;
+	line-height:58px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.dropdownlinkbox{
+	display: inline-block;
+	line-height: 26px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+	width: 360px;
+	margin-left: 0;
+	padding-left: 20px;
+
+}
+
+.dropdownlink{
+	display: inline-block;
+	line-height: 26px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	width: 305px;
+	margin-left: 0;
+
+}
+
+.arrowright1{
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+
+.arrowright2{
+	position: relative;
+	top: 20px;
+	left: 30px;
+}
+
+.dropdown-inner{
+	width: 380px;
+	margin-top: 10px;
+	z-index: 1;
+	position: relative;
+	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block1bg.png);
+	background-size: cover;
+}
+
+.dropdown-inner-op{
+	width: 380px;
+	z-index: 1;
+	position: relative;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+
+header a{
+	text-decoration: none;
+	color: inherit;
+	line-height:58px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	margin-left: 10px;
+}
+
+#headerlink{
+	padding-top: 58px;
+	padding-bottom: 58px;
+	padding-right: 5px;
+	padding-left: 15px;
+	margin-right: -5px;
+}
+
+#headerlink:hover{
+	background-color: rgba(255, 255, 255, 0.15);
+	cursor:pointer;
+}
+
+.headerlinkhover{
+	padding-top: 58px;
+	padding-bottom: 58px;
+	padding-right: 5px;
+	padding-left: 15px;
+	margin-right: -5px;
+}
+
+.headerlinkhover:hover{
+	background-color: rgba(255, 255, 255, 0.15);
+	cursor:pointer;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.dropdownlinkbox:hover .drop2{
+	display: block;
+}
+
+.dropdownlinkbox:hover .drop3{
+	display: block;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.headerarrow{
+	padding-left: 5px;
+}
+
+header button{
+	color: white;
+	font-size: 14px;
+	font-family: Proxima Nova Lt;
+	font-weight: 600;
+	text-transform: uppercase;
+	height:58px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	margin-left: 30px;
+	border: 0;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 0 25px;
+}
+
+.headerhumber1{
+	position: absolute;
+	top: 15px;
+}
+
+.headerhumber2{
+	position: absolute;
+	top: 45px;
+}
+
+.block1{
+	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block1bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 140px;
+}
+
+.block1img{
+	width: 50%;
+	float: right;
+	display: block;
+}
+
+.block1 span{
+	font-family: Futura PT;
+	font-weight: bold;
+	font-size: 36px;
+	color: white;
+	width: 390px;
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	position: relative;
+	margin-top: 170px;
+}
+
+.block1black{
+	margin-top: 0 !important;
+	right: 0 !important;
+	color: black !important;
+}
+
+.block1 button{
+	color: #F3632A;
+	font-size: 14px;
+	font-family: Proxima Nova Lt;
+	font-weight: 600;
+	text-transform: uppercase;
+	height:54px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 0 55px;
+	margin-top: 55px;
+}
+
+.block1circle{
+	position: absolute;
+	bottom: -124px;
+	right: 19%;
+}
+
+.block2img{
+	width: 50%;
+	float: left;
+	display: block;
+}
+
+.block2{
+	margin-bottom: 140px;
+}
+
+.block2textblock{
+	float: right;
+	width: 470px;
+	margin-top: 100px;
+}
+
+.block2 p{
+	margin:0;
+}
+
+
+.block2title{
+	font-size: 28px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-bottom: 40px !important;
+}
+
+.block2text{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #D7D7D7;
+	margin-bottom: 20px !important;
+}
+
+.block2textbold{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: white;
+}
+
+.block3title{
+	font-size: 28px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
+.block3icons{
+	vertical-align: top;
+	max-width: 290px;
+	height: 180px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 26px;
+}
+
+.icondesc{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	color: white;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.block4{
+	width: 100%;
+	margin-top: 140px;
+	margin-bottom: -90px;
+}
+
+.block4img{
+	width: 100%;
+}
+
+.block2circle{
+	position: relative;
+	top: -124px;
+}
+
+.block5{
+	margin-bottom: 140px;
+}
+
+.block5img{
+	float: right;
+	width: 45%;
+}
+
+.block5 p{
+	margin:0;
+}
+
+.block5textblock{
+	float: left;
+	width: 571px;
+	margin-top: 50px;
+}
+
+.block5title{
+	width: 450px;
+	display: inline-block;
+	font-size: 28px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-bottom: 40px !important;
+}
+
+.block5text{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #D7D7D7;
+	margin-bottom: 40px !important;
+	margin-top: 20px !important;
+}
+
+.block5textbold{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: white;
+	display: inline-block;
+	width: 531px;
+	padding-top: 3px;
+	margin-bottom: 20px;
+}
+
+.block5nubmer{
+	vertical-align: top;
+	width: 40px;
+	display: inline-block;
+	font-size: 20px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: #524FFF;
+	padding-right: 
+}
+
+.block5 button{
+	color: white;
+	font-size: 14px;
+	font-family: Proxima Nova Lt;
+	font-weight: 600;
+	text-transform: uppercase;
+	height:54px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	border: 0;
+	background-color: #524FFF;
+	padding: 0 55px;
+	margin-top: 20px;
+}
+
+.block6{
+	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block6bg.png);
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+
+.block6title{
+	width: 450px;
+	display: inline-block;
+	font-size: 28px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-bottom: 40px !important;
+}
+
+.block6card{
+	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block6cards.png);
+	width: 370px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 30px;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 30px;
+	height: 486px;
+}
+
+.block6card p{
+	font-family: Futura PT;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	height: 50px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.block6cardright{
+	margin-right: 0;
+}
+
+.block6last{
+	margin-top: 130px;
+}
+
+.block6title2{
+	width: 450px;
+	display: inline-block;
+	font-size: 28px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-bottom: 40px !important;
+	margin-top: 110px !important;
+}
+
+.block6icon{
+	vertical-align: middle;
+	margin-right: 79px;
+	margin-bottom: 40px;
+}
+
+
+
+.left{
+	margin-left: 0;
+}
+
+.block7{
+	padding-top: 140px;
+
+}
+
+.block7title{
+	width: 450px;
+	display: inline-block;
+	font-size: 28px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-bottom: 40px;;
+}
+
+.arrows{
+	float: right;
+}
+
+.arrow{
+	position: relative;
+	top: -10px;
+	margin-left: 42px;
+	margin-right: 42px;
+}
+
+.mini-circle{
+	margin-right: 10px;
+	margin-left: 10px;
+	position: relative;
+	top: -5px;
+}
+
+.block7 button{
+	color: white;
+	font-size: 14px;
+	font-family: Proxima Nova Lt;
+	font-weight: 600;
+	text-transform: uppercase;
+	height:54px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	border: 0;
+	background-color: #524FFF;
+	padding: 0 55px;
+	margin-top: 40px;
+}
+
+.block7-1{
+	text-align: center;
+}
+
+.block8{
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.table1{
+	padding-top: 33px;
+	padding-bottom: 33px;
+	display: flex;
+	background-color: #33302F;
+	justify-content: space-around;
+	padding-left: 21px;
+	padding-right: 30px;
+}
+
+.table2{
+	padding-top: 33px;
+	padding-bottom: 33px;
+	display: flex;
+	background-color: #2D2A29;
+	justify-content: space-around;
+	padding-left: 21px;
+	padding-right: 30px;
+}
+
+.tablenumber{
+	display: inline-block;
+	font-size: 20px;
+	font-family: Futura PT;
+	font-weight: bold;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: #524FFF;
+	position: relative;
+	top: -5px;
+	width: 27px;
+}
+
+.tablename{
+	text-align: center;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: white;
+	width: 440px;
+
+}
+
+.tableprice{
+	text-align: center;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: white;
+	width: 129px;
+}
+
+.tablenotation{
+	text-align: center;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: white;
+	width: 411px;
+}
+
+.tabletitle{
+	text-align: center;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: white;
+}
+
+.tablenameinner{
+	text-align: center;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #D7D7D7;
+	width: 440px;
+
+}
+
+.tablepriceinner{
+	text-align: center;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: white;
+	width: 129px;
+}
+
+.tablenotationinner{
+	text-align: center;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	color: #D7D7D7;
+	width: 411px;
+}
+
+.hiddentable{
+	display: none;
+}
+
+#table1:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+#table2:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+#table3:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+#table4:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.block9{
+	background-color: #ffffff;
+	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block9bg.png);
+}
+
+.block9 button{
+	color: #F3632A;
+	font-size: 14px;
+	font-family: Proxima Nova Lt;
+	font-weight: 600;
+	text-transform: uppercase;
+	height:54px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 0 55px;
+	margin-top: 55px;
+}
+
+
+.block9textblock{
+	float: left;
+	width: 571px;
+	margin-top: 50px;
+}
+
+.block9title{
+	width: 450px;
+	display: inline-block;
+	font-size: 28px;
+	font-family: Futura PT;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: white;
+	margin-bottom: 40px !important;
+}
+
+.block9text{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-bottom: 20px !important;
+	margin-top: 10px !important;
+}
+
+.block9textbold{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 28px;
+	color: white;
+	display: inline-block;
+	width: 531px;
+	padding-top: 3px;
+	margin-bottom: 20px;
+}
+
+.block9img{
+	float: right;
+	width: 45%;
+	position: relative;
+}
+
+.block3circle{
+	position: relative;
+	top: -124px;
+	left: 65%;
+}
+
+.block10{
+	margin-top: -100px;
+	padding-bottom: 140px;
+}
+.block10text1{
+	float: left;
+	max-width: 555px;
+	padding-right: 50px;
+	border-right: 1px solid #423F3D;
+}
+.block10text2{
+	max-width: 469px;
+	float: right;
+}
+
+.block10text{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #D7D7D7;
+	margin-bottom: 20px !important;
+	margin-top: 0 !important;
+}
+
+.block11{
+	background-color: #2D2B29;
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.sertblock1{
+	float: left;
+	max-width: 571px;
+	margin-left: 15px;
+}
+.sertblock2{
+	float: right;
+	max-width: 571px;
+	margin-right: 15px;
+}
+
+.serts1{
+	margin-top: 20px;
+	margin-right: 12px;
+}
+
+.serts2{
+	margin-bottom: 20px;
+	margin-right: 12px;
+}
+
+.block12{
+	padding-top: 140px;
+	padding-bottom: 280px;
+}
+
+.block12text{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #D7D7D7;
+	margin-bottom: 20px !important;
+	margin-top: 0 !important;
+	display: inline-block;
+	max-width: 480px;
+	vertical-align: middle;
+	position: relative;
+	top: -15px;
+	left: 30px;
+}
+.block12contacts{
+	display: inline-block;
+	font-size: 20px;
+	font-family: Futura PT;
+	font-weight: bold;
+	line-height: 37px;
+	letter-spacing: 0.06em;
+	color: #524FFF;
+	position: relative;
+	left: 90px;
+}
+
+.block13{
+	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block13bg.png);
+	padding-bottom: 120px;
+}
+
+.block13img{
+	float: right;
+	position: relative;
+	right: -50px;
+	top: -50px;
+
+}
+
+.block4circle{
+	position: relative;
+	top: -124px;
+	left: 75%;
+}
+
+.block13text1{
+	font-family: Futura PT;
+	font-weight: bold;
+	font-size: 36px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.block13text2{
+	display: inline-block;
+	font-family: Futura PT;
+	font-weight: bold;
+	font-size: 36px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	position: relative;
+	margin-bottom: 5px;
+	margin-top: 20px;
+}
+
+.block13text3{
+	display: inline-block;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+.block13-1{
+	max-width: 470px;
+	float: left;
+	position: relative;
+	top: -70px;
+}
+
+.block13 button{
+	color: #F3632A;
+	font-size: 14px;
+	font-family: Proxima Nova Lt;
+	font-weight: 600;
+	text-transform: uppercase;
+	height:54px;
+	vertical-align: top;
+	letter-spacing: 0.04em;
+	border: 0;
+	background-color: rgba(255, 255, 255, 1);
+	padding: 0 55px;
+	margin-top: 55px;
+}
+
+footer{
+	padding-top: 40px;
+	background-color: #2D2B29;
+	padding-bottom: 40px;
+}
+
+.footertext{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #828282;
+}
+
+.footertitle{
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	color: #D7D7D7;
+}
+
+.bottomtext1{
+	position: relative;
+	top: -5px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.bottomtext2{
+	position: relative;
+	top: -5px;
+	margin-left: 75px;
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.footer1{
+	display: flex;
+}
+
+.footer2{
+	margin-top: 40px;
+}
+
+footer p{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.footerblock1{
+	margin-right: 140px;
+}
+
+.footerblock1 .footertext:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footerblock2 .footertext:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.footerblock3 .footertext:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.footerblock2{
+	margin-right: 30px;
+	max-width: 270px;
+}
+
+.footerblock3{
+	padding-top: 36px;
+	margin-right: 140px;
+	max-width: 270px;
+}
+
+.form{
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 5%;
+	max-width: 630px;
+	height: 772px;
+	background-color: #2D2A29;
+	position: fixed;
+	z-index: 1;
+	color: white;
+	text-align: center;
+}
+
+.vh{
+	visibility: hidden;
+}
+
+#error1::after{
+	content: url(https://sivwallin.github.io/TGS_port/indeximages//error.png);
+	position: relative;
+	top: 10px;
+	right: 40px;
+	color: #524FFF;
+	z-index: 1;
+	font-size: 30px;
+}
+
+#error2::after{
+	content: url(https://sivwallin.github.io/TGS_port/indeximages//error.png);
+	position: relative;
+	top: 10px;
+	right: 40px;
+	color: #524FFF;
+	z-index: 1;
+	font-size: 30px;
+}
+
+#error3::after{
+	content: url(https://sivwallin.github.io/TGS_port/indeximages//error.png);
+	position: relative;
+	bottom: 86px;
+	right: 40px;
+	color: #524FFF;
+	z-index: 1;
+	font-size: 30px;
+}
+
+.req{
+	position: relative;
+	top: 13px;
+	left: -170px;
+	text-align: left;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	color: #524FFF;
+}
+
+.dn{
+	display: none;
+}
+
+#need1::before{
+	content: '*';
+	position: relative;
+	right: 390px;
+	color: #524FFF;
+	z-index: 1;
+	font-size: 30px;
+}
+
+#need2::before{
+	content: '*';
+	position: relative;
+	right: 350px;
+	color: #524FFF;
+	z-index: 1;
+	font-size: 30px;
+}
+
+
+#need3::before{
+	content: '*';
+	top: 10px;
+	right: 330px;
+	position: relative;
+	vertical-align: top;
+	color: #524FFF;
+	z-index: 1;
+	font-size: 30px;
+}
+
+
+.input1{
+	width: 450px;
+	height: 53px;
+	background-color: #383534;
+	border: 0;
+	margin-top: 0px;
+	padding-left: 20px;
+	font-size: 18px;
+	right: -20px;
+	position: relative;
+}
+
+.input2{
+	width: 450px;
+	height: 106px;
+	background-color: #383534;
+	border: 0;
+	margin-top: 0px;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 18px;
+	right: -20px;
+	position: relative;
+}
+
+.input1new{
+	width: 450px;
+	height: 53px;
+	background-color: #383534;
+	border: 0;
+	margin-top: 20px;
+	padding-left: 20px;
+	font-size: 18px;
+	right: -20px;
+	position: relative;
+}
+
+.input2new{
+	width: 450px;
+	height: 106px;
+	background-color: #383534;
+	border: 0;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-size: 18px;
+	right: -20px;
+	position: relative;
+}
+
+.submit{
+	width: 470px;
+	height: 63px;
+	background-color: #383534;
+	border: 0;
+	margin-top: 20px;
+}
+
+.formtext1{
+	margin-top: 50px;
+	width: 470px;
+	display: inline-block;
+	text-align: left;
+	font-family: Futura PT;
+	font-size: 28px;
+	line-height: 33px;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: #524FFF;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.formtext2{
+	width: 470px;
+	display: inline-block;
+	text-align: left;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+
+
+.formtext3{
+	width: 470px;
+	display: inline-block;
+	text-align: left;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ACACAC;
+}
+
+.formtext4{
+	text-decoration: none;
+	color: white;
+}
+
+.formtext4:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.submit{
+	background-color: #524FFF;
+	font-family: Proxima Nova Rg;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.closeform{
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+
+.closeform:hover{
+	cursor: pointer;
+}
+
+#button4:hover{
+	cursor: pointer;
+}
+
+.successcard{
+	position: fixed;
+	max-width: 630px;
+	height: 433px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 216px;
+	background-color: #2D2A29;
+	text-align: center;
+}
+
+.right{
+	margin-right: 0;
+}
+
+.right1{
+	margin-right: 0;
+}
+
+.block7img1{
+	float: left;
+}
+
+.block7img2{
+	margin-right: 20px;
+	float: right
+}
+
+.block7img3{
+	margin-right: 20px;
+	float: right;
+	margin-top: 31px;
+}
+
+
+
+@media all and (max-width: 1480px){
+
+	.block1 span{
+	margin-top: 100px;
+	}
+
+	.block2textblock{
+	margin-top: 0;
+	}
+}
+
+@media all and (max-width: 1024px){
+
+
+	.block13img {
+	    float: right;
+	    position: relative;
+	    right: 50px;
+	    top: -50px;
+	}
+	.headerhumber1 {
+	    position: relative;
+	    top: 15px;
+	}
+	.headerhumber2 {
+	    position: relative;
+	    top: 15px;
+	}
+	#button1{
+		position: relative;
+		top: 15px;
+	}
+
+	.block1 span{
+		margin-top: 30px;
+		margin-left: 20px;
+	}
+
+	.block1black{
+		margin-left: 0 !important;
+	}
+
+	.block3{
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	.block5textblock {
+	    width: 471px;
+	}
+
+	.block5textbold {
+	    width: 431px;
+	}
+
+	.block6 .container{
+		padding-right: 100px;
+		padding-left: 100px;
+	}
+
+	.block6cardright {
+    	margin-right: 30px;
+	}
+
+	.right {
+    	margin-right: 79px; !important;
+	}
+
+	.block7 {
+   		padding-right: 50px;
+   		padding-left: 50px;
+	}
+
+	.block7img1 {
+    	float: none;
+    	margin-bottom: 30px;
+	}
+
+	.block7img2 {
+    	float: none;
+	}
+
+	.block7img3 {
+    	float: none;
+	}
+
+	.block8{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.block9textblock {
+	    float: left;
+	    width: 471px;
+	    margin-left: 50px;
+	}
+
+	.block9img {
+	    height: 750px;
+	}
+
+	.block10{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.block10text1 {
+	    max-width: 410px;
+	}
+
+	.block10text2 {
+	    max-width: 419px;
+	}
+
+	.sertblock1 {
+	    float: none;
+	    margin:auto;
+	}
+
+	.sertblock2 {
+		float: none;
+	    margin:auto;
+	    margin-top: 20px;
+	}
+
+	.block12 .container{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+
+	.block12text {
+	    max-width: 280px;
+	}
+
+	.block13-1 {
+	    max-width: 470px;
+	    float: left;
+	    position: relative;
+	    top: -70px;
+	    left: 150px;
+	}
+
+	.block13img {
+	    float: right;
+	    position: relative;
+	    right: 200px;
+	    top: 10px;
+	}
+
+	footer{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+
+	.bottomtext2 {
+	    margin-left: 5px;
+	}
+
+	.block5textblock{
+		padding-left: 50px;
+	}
+
+	.block11 .block9title {
+	    padding-left: 20px;
+	}
+}
+
+@media all and (max-width: 1024px){
+
+	.block6card {
+	    margin-right: 15px;
+	}
+	.block10text1 {
+	    max-width: 380px;
+	}
+
+}
+
+@media all and (max-width: 768px){
+
+	#need1::before{
+		color: #EE2131 !important;
+	}
+
+	#need2::before{
+		color: #EE2131 !important;
+	}
+
+
+	#need3::before{
+		color: #EE2131 !important;
+	}
+
+	.block1 span{
+		width: 360px;
+	}
+	.block1img {
+	    height: 323px;
+	}
+	.block1 button{
+		margin-top: 25px;
+	}
+
+	.block2textblock{
+		width: 350px;
+	}
+	.block6{
+		padding-top: 60px;
+		background-size: 125%;
+	}
+	.block6card{
+		width: 95% !important;
+		margin: 0 auto !important;
+		margin-bottom: 30px !important;
+		height: 420px;
+	}
+
+	.tablenumber{
+		font-size: 14px;
+	}
+
+	.tablename{
+		font-size: 14px;
+	}
+
+	.tableprice{
+		font-size: 14px;
+	}
+
+	.tablenotation{
+		font-size: 14px;
+	}
+	.tablenameinner{
+		font-size: 12px;
+	}
+	.tablepriceinner{
+		font-size: 12px;
+	}
+	.tablenotationinner{
+		font-size: 12px;
+	}
+	.tabletitle{
+		font-size: 18px;
+	}
+	.block6image{
+		width: 100% !important;
+	}
+	.block3{
+		padding-left: 110px;
+	}
+	.block3title{
+		font-size: 18px;
+	}
+	.block5title{
+		font-size: 18px;
+	}
+	.block5img {
+	    float: right;
+	    width: 87%;
+	    padding-right: 6.5%;
+	    margin-top: 30px;
+	}
+
+	.block6 .container{
+		padding-left: 180px;
+	}
+
+	.block6icon {
+	    margin-right: 50px;
+	}
+
+	.block7img1 {
+	    margin-top: 30px;
+	}
+
+	.arrows {
+	    position: relative;
+	    right: 80px;
+	}
+
+	.block9img {
+	    width: 87%;
+	    padding-right: 6.5%;
+	    margin-top: 30px;
+	}
+
+	.block10text1 {
+	    max-width: 280px;
+	}
+
+	.block10text2 {
+	    max-width: 280px;
+	}
+
+	.block12text {
+	    max-width: 220px;
+	}
+
+	.block12 .block10text1{
+		margin-top: 40px;
+	}
+
+	.block4circle {
+	    position: relative;
+	    top: -124px;
+	    left: 55%;
+	}
+
+	.footer1 {
+	    display: block;
+	    text-align: center;
+	}
+	.footerblock1{
+		margin-top: 20px;
+		margin-right: 0;
+		width: 100%;
+	}
+	.footerblock2{
+		margin-top: 20px;
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.footerblock3{
+		margin-top: 0px;
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+	.footerblock4{
+		margin-top: 20px;
+		margin-right: 0;
+		width: 100%;
+	}
+	.block13img {
+	    float: right;
+	    position: relative;
+	    right: 100px;
+	    top: 10px;
+	}
+}
+
+@media all and (max-width: 414px){
+
+	.block7{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	.block7img1 {
+	    width: 350px;
+	}
+	.block7img2 {
+	    width: 350px;
+	}
+	.block7img3 {
+	    width: 350px;
+	}
+
+	.block6 .container{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+
+	.block9textblock {
+	    width: 350px;
+	}
+
+	.block9title{
+		width: 350px;
+	}
+
+	.block9textbold{
+		width: 350px;
+	}
+
+	.block9img{
+		height: 300px;
+		width: 100%;
+		padding-right: 0;
+	}
+
+	.block3circle {
+	    position: relative;
+	    top: -124px;
+	    left: 25%;
+	}
+
+	.block10text1 {
+	    border-right: 0;
+	    float: left;
+	    padding-right: 0;
+	}
+
+	.block10text2 {
+	    float: left;
+	    padding: 0;
+	}
+
+	.bigsert{
+		width: 390px;
+	}
+
+	.serts1{
+		width: 120px;
+	}
+	.serts2{
+		width: 120px;
+	}
+
+	.sertblock1{
+		padding-left: 10px;
+	}
+
+	.sertblock2{
+		padding-left: 10px;
+	}
+
+	.block13-1{
+		max-width: 320px;
+		left: 40px;
+	}
+
+	.block13img{
+		right: 0px;
+	}
+
+	.block4circle{
+		left: 35%;
+	}
+
+	.block5textblock{
+		width: 290px;
+		padding-left: 10px;
+	}
+
+	.block5title{
+		width: 90%;
+		padding-right: 10%;
+
+	}
+
+	.block5textbold{
+		font-size: 18px;
+		width: 250px;
+	}
+
+	.block8{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.block6 .container{
+		padding-left: 20px;
+	}
+
+	.block6title2{
+		width: 300px;
+	}
+
+	.block6icon{
+		margin-right: 15px;
+	}
+
+	.arrows {
+	    position: relative;
+	    width: 100% !important;
+	    text-align: center !important;
+	    right: 0 !important;
+	}
+
+	.arrows .right{
+		margin-right: 0;
+	}
+
+	.arrows .left{
+		margin-left: 0;
+	}
+
+	.block6title{
+		width: 300px;
+		padding-left: 20px;
+	}
+
+	.block5img{
+		width: 100%;
+		padding-right: 0;
+	}
+	.block5textblock{
+		padding-left: 30px;
+	}
+
+	.block3{
+		padding-left: 30px;
+	}
+
+	.block2{
+		padding-right: 10px;
+	}
+
+	.block2img{
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.block1img{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.headerhumber1{
+		margin-left: 70px;
+	}
+
+	#button1{
+		top: 0px;
+		right: -30px;
+	}
+
+	.block9title{
+		width: 330px;
+		font-size: 26px;
+	}
+
+	.form{
+		padding: 5px;
+		top: 0px;
+		max-width: 414px;
+		margin:0;
+		background-image: url(https://sivwallin.github.io/TGS_port/indeximages//formbg.png);
+		background-size: cover;
+	}
+
+	.form input{
+		max-width: 300px;
+		right: -10px;
+		background-color: white;
+		color: #222222;
+	}
+
+	.form textarea{
+		max-width: 300px;
+		right: -10px;
+		background-color: white;
+		color: #222222;
+	}
+
+	.formtext2{
+		max-width: 350px;
+
+	}
+
+	.formtext3{
+		color: white;
+		max-width: 350px;
+
+	}
+
+	.submit{
+		max-width: 322px !important;
+		right: 10px !important;
+		position: relative;
+	}
+
+	.formtext4{
+		font-weight: bold;
+	}
+
+	#need1::before{
+		content: '*';
+		position: relative;
+		right: 250px;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+	#need2::before{
+		content: '*';
+		position: relative;
+		right: 215px;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+
+	#need3::before{
+		content: '*';
+		top: 10px;
+		right: 190px;
+		position: relative;
+		vertical-align: top;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+	#success{
+		background-image: url('https://sivwallin.github.io/TGS_port/indeximages//formbg.png');
+		background-size: cover;
+	}
+
+	#success #form2{
+		padding-left: 0;
+		width: 100%;
+	}
+
+	input::-webkit-input-placeholder {
+	    color: #222222;
+	   } 
+	input::-moz-placeholder {
+	    color: #222222;
+	   }
+
+	textarea::-webkit-input-placeholder {
+	    color: #222222;
+	   } 
+
+	textarea::-moz-placeholder {
+		color: #222222;
+	}
+
+	.req{
+		left: -90px;
+	}
+
+	.formtext1{
+		padding-left: 30px;
+		color: white;
+		font-size: 24px;
+	}
+
+	.footer2{
+		text-align: center;
+	}
+	.breadcrumbs{
+		text-align: center;
+	}
+
+}
+
+@media all and (max-width: 375px){
+	.form input{
+		max-width: 280px;
+		right: -10px;
+		background-color: white;
+		color: #222222;
+	}
+
+	.form textarea{
+		max-width: 280px;
+		right: -10px;
+		background-color: white;
+		color: #222222;
+	}
+	.formtext1{
+		margin-top: 20px;
+	}
+	.formtext2{
+		padding-left: 20px;
+		font-size: 16px;
+	}
+	.formtext3{
+		padding-left: 20px;
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	.submit{
+		max-width: 302px !important;
+	}
+	#need1::before{
+		content: '*';
+		position: relative;
+		right: 235px;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+	#need2::before{
+		content: '*';
+		position: relative;
+		right: 195px;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+
+	#need3::before{
+		content: '*';
+		top: 10px;
+		right: 170px;
+		position: relative;
+		vertical-align: top;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+	.block6card{
+		width: 330px;
+	}
+
+	.block6image{
+		width: 330px;
+	}
+
+	.block6icon{
+		padding-left: 40px;
+	}
+
+	.block9title{
+		width: 300px;
+	}
+
+	.block9textblock{
+		width: 300px;
+	}
+
+	.block9textbold{
+		width: 300px;
+	}
+
+	.block9title{
+		font-size: 20px;
+	}
+
+	.bigsert{
+		width: 300px;
+	}
+
+	.serts1{
+		width: 90px;
+	}
+
+	.serts2{
+		width: 90px;
+	}
+
+	.block12text{
+		width: 150px;
+	}
+
+	.block4circle{
+		left: 25%;
+	}
+
+	.block1 span{
+		width: 300px;
+	}
+}
+
+@media all and (max-width: 360px){
+
+	.block6card{
+		width: 300px;
+		margin-right: 0;
+	}
+	.block6image{
+		width: 300px;
+	}
+
+	.block7img1{
+		width: 300px;
+	}
+	.block7img2{
+		width: 300px;
+	}
+	.block7img3{
+		width: 300px;
+	}
+	.arrows{
+		right: 10px;
+	}
+
+	.form{
+		padding: 5px;
+		top: 0px;
+		max-width: 390px;
+		margin:0;
+	}
+
+	.form input{
+		max-width: 280px;
+	}
+
+	.form textarea{
+		max-width: 280px;
+	}
+
+	.formtext2{
+		max-width: 350px;
+	}
+
+	.formtext3{
+		max-width: 350px;
+	}
+
+	.req{
+		left: -90px;
+	}
+
+	.formtext1{
+		padding-left: 10px;
+		margin-top: 0;
+	}
+
+	.closeform{
+		top: 5px;
+		right: 5px;
+	}
+}
+
+@media all and (max-width: 320px){
+
+	#need1::before{
+		content: '*';
+		position: relative;
+		right: 205px;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+	#need2::before{
+		content: '*';
+		position: relative;
+		right: 165px;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+
+
+	#need3::before{
+		content: '*';
+		top: 10px;
+		right: 145px;
+		position: relative;
+		vertical-align: top;
+		color: #524FFF;
+		z-index: 1;
+		font-size: 30px;
+	}
+	#closeform{
+		top: 15px;
+		right: 15px;
+	}
+	.formtext2{
+		padding-left: 10px;
+	}
+	.formtext3{
+		padding-left: 10px;
+	}
+	.submit{
+		max-width: 275px !important;
+		width: 275px !important;
+	}
+
+	.headerhumber1{
+		margin-left: 90px;
+		margin-right: 100px;
+	}
+
+	.headerhumber2{
+		margin-left:90px;
+	}
+
+	.block1 span{
+		width: 300px;
+		font-size: 28px;
+	}
+
+	.block9title{
+		width: 250px;
+	}
+
+	.block9text{
+		width: 250px;
+	}
+
+	.block9textbold{
+		width: 250px;
+	}
+
+	.block3circle{
+		left: 15%;
+	}
+	.block12contacts{
+		font-size: 16px;
+	}
+	.block4circle{
+		left: 15%;
+	}
+	.block13text1{
+		width: 250px;
+	}
+	.block13text3{
+		font-size:16px; 
+	}
+	.block13 button{
+		padding: 0 30px;
+	}
+	.block13-1{
+		max-width: 300px;
+		left: 10px;
+	}
+	.block6image{
+		width: 250px;
+	}
+	.block6card{
+		width: 250px;
+		margin-left: 20px;
+	}
+	.block9textblock{
+		width: 250px;
+	}
+
+	.arrow{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.arrows{
+		right: 20px;
+	}
+	.block7img1{
+		width: 250px;
+	}
+	.block7img2{
+		width: 250px;
+	}
+	.block7img3{
+		width: 250px;
+	}
+	.block6title{
+		width: 250px;
+	}
+	.form{
+		width: 100%;
+		max-width: 100%;
+		position: absolute;
+	}
+
+	.form input{
+		width: 79%;
+		max-width: 79%;
+		right: -10px;
+	}
+
+	.form textarea{
+		width: 79%;
+		max-width: 79%;
+		right: -10px;
+	}
+
+	.block2textblock{
+		width: 290px;
+		margin-top: 20px;
+	}
+
+}
+
+.mobileblockviev{
+	display: block !important;
+}
+
+
+@media all and (max-width: 768px){
+
+	#need1::before{
+		color: #EE2131 !important;
+	}
+
+	#need2::before{
+		color: #EE2131 !important;
+	}
+
+
+	#need3::before{
+		color: #EE2131 !important;
+	}
+	header a, header div, header span{
+		width: 100% !important;
+		position: static !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		display: inline-block;
+		text-align: center;
+	}
+	header button{
+		margin-left: 0 !important;
+		right: 0 !important;
+	}
+
+	header{
+		background-size: contain;
+	}
+
+	.mobmenubutton{
+		display: inline-block !important;
+		width: 38px !important;
+		position: relative !important;
+		right: -10%;
+	}
+
+
+	.headerlogo{
+		width: 158px !important;
+		position: relative !important;
+		left: -10%;
+	}
+
+	.block1{
+		background-size: 125%;
+		background-repeat: repeat;
+	}
+
+	.mobilemenu{
+		display: none;
+	}
+
+	.dropdownlinkbox{
+		padding-top: 25px !important;
+		padding-bottom: 25px !important;
+	}
+
+	.arrowright2{
+		left: 0;
+	}
+
+	.drop3{
+		position: relative !important;
+		min-width: 100% !important;
+		top: 26px;
+	}
+	.drop2{
+		position: relative !important;
+		min-width: 100% !important;
+		top: 26px;
+	}
+
+	.dropdown-content{
+		min-width: 100% !important;
+	}
+}

@@ -527,6 +527,7 @@ header button{
 
 .block6{
 	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block6bg.png);
+	background-size: cover;
 	padding-top: 140px;
 	padding-bottom: 100px;
 }
@@ -958,6 +959,7 @@ header button{
 
 .block13{
 	background-image: url(https://sivwallin.github.io/TGS_port/indeximages//block13bg.png);
+	background-size: cover;
 	padding-bottom: 120px;
 }
 
